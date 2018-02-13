@@ -1,0 +1,15 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 DSpairs_spikeData.mat contains four MATLAB variables (described below) related to the extracellular spike recordings used in Zylberberg et al. \'93Direction-selective circuits shape noise to ensure a precise population code.\'94 (2016). These data were used to produce Figure 1 of the paper, and to fit the model presented in Figure 6.\
+\
+1) spikeResults is a 2x14 cell (2 cells per pair and 14 simultaneously-recorded pairs). Each cell entry is an n x 8 matrix of spike count responses, where n is the number of trial responses collected for each of 8 moving bar directions.\
+2) correctedSpikeResults is organized the same, but uses \'93Window-corrected\'94 spike counts, as described in the 2016 paper. The window-correction removes slow, long-term drift associated with the recordings.\
+3) barSpeeds is the speed of the moving bar on the retina (in microns/sec) for each of the 14 recorded pairs\
+4) cellNames indicates the original data file for each of the 14 pairs, for reference.\
+\
+These data were collected by Max Turner, Jon Cafaro, and Fred Rieke. If you have any questions please feel free to reach out to Max at mhturner@uw.edu}
